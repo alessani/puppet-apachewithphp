@@ -1,0 +1,7 @@
+name "puppetlabs-apachewithphp"
+version "0.0.1"
+source "git://github.com/alessani/puppet-apachewithphp"
+author "Matteo Alessani"
+license "Apache"
+summary "Manage installation of apache and php"
+description "Manage installation of apache prefork with php mod enabled and server token off"
