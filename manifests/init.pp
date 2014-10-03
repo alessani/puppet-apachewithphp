@@ -5,7 +5,7 @@ class apachewithphp (
   class { 'apache':
     mpm_module => 'prefork',
     server_signature => 'Off',
-    server_token => 'Prod'
+    server_tokens => 'Prod'
   }
 
   class { 'apache::mod::status':
